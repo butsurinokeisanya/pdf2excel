@@ -2,6 +2,7 @@ import os
 import re
 import pdfplumber
 from openpyxl import Workbook
+##
 def extract_pdf_content(pdf_file):
     with pdfplumber.open(pdf_file) as pdf:
         text = ''
